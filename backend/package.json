@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json.schemastore.org/package",
   "name": "orbitdesk-api",
   "version": "1.0.0",
   "description": "Configurable Express and MongoDB authentication API for OrbitDesk.",
