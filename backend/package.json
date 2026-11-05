@@ -1,0 +1,26 @@
+{
+  "name": "orbitdesk-api",
+  "version": "1.0.0",
+  "description": "Configurable Express and MongoDB authentication API for OrbitDesk.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "seed:demo": "node scripts/seed-demo.js"
+  },
+  "author": "Jahid Khan",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.16.3",
+    "express-validator": "^5.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^5.3.2",
+    "nodemailer": "^6.4.10",
+    "nodemailer-mailgun-transport": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
