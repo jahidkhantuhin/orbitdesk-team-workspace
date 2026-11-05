@@ -17,8 +17,8 @@ OrbitDesk is a responsive task-management showcase by **Jahid Khan**. It pairs a
 ## Project structure
 
 ```text
-frontend/                          Nuxt 2 + Vue 2 + Vuetify 2 application
-backend/                           Express auth/task API + MongoDB models
+frontend/  Nuxt 2 + Vue 2 + Vuetify 2 application
+backend/   Express auth/task API + MongoDB models
 ```
 
 Task records are stored in MongoDB and scoped to the authenticated user. The browser stores only the short-lived JWT and session details in `localStorage`; task changes are sent to the API and remain available across reloads and devices using the same account. The one-click demo signs into the seeded local account and exercises the same API-backed flows.
